@@ -8,13 +8,16 @@ $days: (
   6: sat,
   7: sun,
 );
+$day-gap: 1px;
+$calendar-width: 726px;
+$day-padding: 10px;
 
 .calendar {
   box-sizing: border-box;
   flex-wrap: wrap;
-  gap: 1px;
-  width: 726px;
-  padding: 10px;
+  gap: $day-gap;
+  width: $calendar-width;
+  padding: $day-padding;
   display: flex;
 
   &__day {
